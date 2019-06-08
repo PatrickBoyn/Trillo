@@ -7,7 +7,8 @@
   --light-grey-color-4: #ccc;
   --dark-grey-color-1: #333;
   --dark-grey-color-2: #777;
-  --dark-grey-color-3: #999; }
+  --dark-grey-color-3: #999;
+  --dark-shadow: 0 2rem 6rem rgba(0, 0, 0, .3); }
 
 * {
   margin: 0;
@@ -36,5 +37,5 @@ body {
   max-width: 120rem;
   margin: 8rem auto;
   background-color: var(--light-grey-color-2);
-  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  box-shadow: var(--dark-shadow);
   min-height: 50rem; }
