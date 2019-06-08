@@ -44,3 +44,9 @@ body {
   height: 7rem;
   background-color: #ffffff;
   border-bottom: var(--light-grey-color-2); }
+
+.sidebar {
+  background-color: var(--dark-grey-color-1); }
+
+.hotel-view {
+  background-color: #ffffff; }
