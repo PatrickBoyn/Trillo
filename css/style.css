@@ -34,5 +34,7 @@ body {
 
 .container {
   max-width: 120rem;
-  margin: 0 auto;
-  background-color: var(--light-grey-color-2); }
+  margin: 8rem auto;
+  background-color: var(--light-grey-color-2);
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  min-height: 50rem; }
