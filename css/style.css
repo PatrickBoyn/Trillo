@@ -4,7 +4,8 @@
   --primary-color-dark: #ba265d;
   --light-grey-color-1: #faf9f9;
   --light-grey-color-2: #f4f2f2;
-  --light-grey-color-3: #ccc;
+  --light-grey-color-3: #f0eeee;
+  --light-grey-color-4: #ccc;
   --dark-grey-color-1: #333;
   --dark-grey-color-2: #777;
   --dark-grey-color-3: #999;
@@ -41,6 +42,7 @@ body {
   min-height: 50rem; }
 
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #ffffff;
   border-bottom: var(--light-grey-color-2);
@@ -80,6 +82,9 @@ body {
     width: 90%;
     transition: all .2s;
     margin-right: -3.25rem; }
+    .search__input::-webkit-input-placeholder {
+      font-weight: 100;
+      color: var(--light-grey-color-4); }
     .search__input:focus {
       outline: none;
       width: 100%;
