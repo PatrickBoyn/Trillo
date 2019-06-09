@@ -60,10 +60,12 @@ body {
   flex: 1; }
 
 .logo {
-  height: 3.25rem; }
+  height: 3.25rem;
+  margin-left: 3rem; }
 
 .search {
-  background-color: purple; }
+  background-color: purple;
+  flex: 0 0 40%; }
   .search__icon {
     height: 2rem;
     width: 2rem; }
