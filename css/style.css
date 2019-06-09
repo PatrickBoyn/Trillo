@@ -55,3 +55,6 @@ body {
 .hotel-view {
   background-color: red;
   flex: 1; }
+
+.logo {
+  height: 3.25rem; }
