@@ -10,7 +10,8 @@
 
     display: flex
     align-items: center
-    
+    justify-content: center
+
     &__input
         font-family: inherit
         font-size: inherit
@@ -19,14 +20,19 @@
         border: none
         padding: 0.7rm 2rem
         border-radius: 100px
+        height: 3rem
         width: 90%
         transition: all .2s
-        margin-right: -3.5rem
+        margin-right: -3.25rem
 
         &:focus
             outline: none
             width: 100%
             background-color: var(--light-grey-color-3)
+    
+    &__input:focus
+        
+
     &__button
         border: none
         background-color: var(--light-grey-color-2)
