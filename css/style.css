@@ -43,7 +43,8 @@ body {
 .header {
   height: 7rem;
   background-color: #ffffff;
-  border-bottom: var(--light-grey-color-2); }
+  border-bottom: var(--light-grey-color-2);
+  display: flex; }
 
 .content {
   display: flex; }
