@@ -85,6 +85,8 @@ body {
       outline: none;
       width: 100%;
       background-color: var(--light-grey-color-3); }
+  .search__input:focus + .search__button {
+    background-color: var(--light-grey-color-3); }
   .search__button {
     border: none;
     background-color: var(--light-grey-color-2); }
