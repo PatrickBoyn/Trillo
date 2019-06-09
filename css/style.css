@@ -84,6 +84,10 @@ body {
   .search__button {
     border: none;
     background-color: var(--light-grey-color-2); }
+    .search__button:focus {
+      outline: none; }
+    .search__button:active {
+      transform: translateY(2px); }
   .search__icon {
     height: 2rem;
     width: 2rem; }
