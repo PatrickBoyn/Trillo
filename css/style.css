@@ -105,11 +105,13 @@ body {
 
 .user-nav {
   background-color: pink;
+  align-self: stretch;
   display: flex;
   align-items: center; }
   .user-nav > * {
     padding: 0 2rem;
-    cursor: pointer; }
+    cursor: pointer;
+    height: 100%; }
   .user-nav > *:hover {
     background-color: var(--light-grey-color-2); }
   .user-nav__icon {
