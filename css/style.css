@@ -118,7 +118,12 @@ body {
     background-color: var(--light-grey-color-2); }
   .user-nav__icon {
     height: 2.25rem;
-    width: 2.25rem; }
+    width: 2.25rem;
+    fill: var(--dark-grey-color-2); }
+  .user-nav__notification {
+    font-size: .8rem;
+    height: 0.75rem;
+    width: 0.75rem; }
   .user-nav__user-photo {
     height: 3.75rem;
     border-radius: 50%; }
