@@ -116,11 +116,12 @@ body {
     align-items: center; }
   .user-nav > *:hover {
     background-color: var(--light-grey-color-2); }
+  .user-nav__icon-box {
+    position: relative; }
   .user-nav__icon {
     height: 2.25rem;
     width: 2.25rem;
-    fill: var(--dark-grey-color-2);
-    position: relative; }
+    fill: var(--dark-grey-color-2); }
   .user-nav__notification {
     font-size: .8rem;
     height: 1.75rem;
@@ -128,7 +129,9 @@ body {
     border-radius: 50%;
     background-color: var(--primary-color);
     color: #ffffff;
-    position: absolute; }
+    position: absolute;
+    top: 0;
+    right: 1rem; }
   .user-nav__user-photo {
     height: 3.75rem;
     border-radius: 50%; }
