@@ -171,7 +171,9 @@ body {
     display: block;
     padding: 1.5rem 3rem;
     display: flex;
-    align-items: center; }
+    align-items: center;
+    position: relative;
+    z-index: 10; }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
