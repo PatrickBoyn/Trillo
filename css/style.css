@@ -155,7 +155,9 @@ body {
     padding: 1.5rem 3rem; }
   .side-nav__icon {
     width: 1.75rem;
-    height: 1.75rem; }
+    height: 1.75rem;
+    margin-right: 2rem;
+    fill: currentColor; }
 
 .legal {
   font-size: 1.2rem;
