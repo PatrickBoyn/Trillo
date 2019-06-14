@@ -160,9 +160,10 @@ body {
     width: 3px;
     background-color: var(--primary-color);
     transform: scaleY(0);
-    transition: transform 1s; }
+    transition: transform .2s, width .4s .2s; }
   .side-nav__item:hover::before {
-    transform: scaleY(1); }
+    transform: scaleY(1);
+    width: 100%; }
   .side-nav__link:link, .side-nav__link:visited {
     color: var(--light-grey-color-1);
     text-decoration: none;
