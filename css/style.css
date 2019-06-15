@@ -165,7 +165,7 @@ body {
     transform: scaleY(1);
     width: 100%; }
   .side-nav__item:active::before {
-    background-color: var(-primary-color-dark); }
+    background-color: var(-primary-color-light); }
   .side-nav__link:link, .side-nav__link:visited {
     color: var(--light-grey-color-1);
     text-decoration: none;
