@@ -195,7 +195,9 @@ body {
 
 .overview {
   display: flex;
-  border-bottom: 1px solid var(--light-grey-color-2); }
+  align-items: center;
+  border-bottom: 1px solid var(--light-grey-color-2);
+  font-size: 2.25rem; }
   .overview__stars {
     margin-right: auto; }
   .overview__icon-star, .overview__icon-location {
