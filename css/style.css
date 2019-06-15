@@ -194,7 +194,8 @@ body {
     display: block; }
 
 .overview {
-  display: flex; }
+  display: flex;
+  border-bottom: 1px solid var(--light-grey-color-2); }
   .overview__stars {
     margin-right: auto; }
   .overview__icon-star, .overview__icon-location {
