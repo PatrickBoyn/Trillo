@@ -73,7 +73,6 @@ body {
 
 .description {
   font-size: 1.4rem;
-  background-color: purple;
   flex: 0 0 60%;
   margin-right: 4.5rem;
   padding: 3rem;
@@ -91,7 +90,9 @@ body {
   margin: 3rem 0;
   padding: 3rem 0;
   border-top: var(--light-border-bottom);
-  border-bottom: var(--light-border-bottom); }
+  border-bottom: var(--light-border-bottom);
+  display: flex;
+  flex-wrap: wrap; }
 
 .logo {
   height: 3.25rem;
