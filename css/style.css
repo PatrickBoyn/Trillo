@@ -210,6 +210,9 @@ body {
     width: 1.75rem;
     height: 1.75rem;
     fill: var(--primary-color); }
+  .overview__icon-star:hover {
+    cursor: pointer;
+    fill: var(--primary-color-dark); }
   .overview__location {
     font-size: 1.2rem;
     display: flex;

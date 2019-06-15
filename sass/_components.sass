@@ -167,7 +167,7 @@
     display: flex
     align-items: center
     border-bottom: 1px solid var(--light-grey-color-2)
-    
+
     &__heading
         font-size: 2.25rem
         font-weight: 300
@@ -178,12 +178,17 @@
     &__stars
         margin-right: auto
         display: flex
-
+        
     &__icon-star, 
     &__icon-location
         width: 1.75rem
         height: 1.75rem
         fill: var(--primary-color)
+
+    // My own addition
+    &__icon-star:hover
+        cursor: pointer
+        fill: var(--primary-color-dark)
 
     &__location
         font-size: 1.2rem
