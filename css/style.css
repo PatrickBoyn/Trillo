@@ -197,7 +197,10 @@ body {
   display: flex;
   align-items: center;
   border-bottom: 1px solid var(--light-grey-color-2);
-  font-size: 2.25rem; }
+  font-size: 2.25rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
   .overview__stars {
     margin-right: auto; }
   .overview__icon-star, .overview__icon-location {
