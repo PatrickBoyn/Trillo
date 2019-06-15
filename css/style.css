@@ -11,6 +11,7 @@
   --dark-grey-color-2: #777;
   --dark-grey-color-3: #999;
   --dark-shadow: 0 2rem 6rem rgba(0, 0, 0, .3);
+  --light-shadow: 0 2rem 5rem rgba(0,0,0, .06);
   --light-border-bottom: 1px solid var(--light-grey-color-2); }
 
 * {
@@ -75,7 +76,8 @@ body {
   background-color: purple;
   flex: 0 0 60%;
   margin-right: 4.5rem;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.06); }
+  padding: 3rem;
+  box-shadow: var(--light-shadow); }
 
 .user-reviews {
   background-color: maroon;
