@@ -101,7 +101,8 @@ body {
     display: inline-block;
     height: 2rem;
     width: 2rem;
-    background-image: url("../img/SVG/chevron-right.svg"); }
+    margin-right: 0.7rem;
+    background-color: var(--primary-color); }
 
 .logo {
   height: 3.25rem;
