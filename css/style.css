@@ -220,6 +220,9 @@ body {
     background-color: var(--primary-color);
     color: #fff;
     margin-left: 3rem; }
+  .overview__rating-average {
+    font-size: 2.25rem;
+    font-weight: 300; }
 
 .btn-inline {
   border: none;
