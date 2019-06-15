@@ -94,7 +94,14 @@ body {
   display: flex;
   flex-wrap: wrap; }
   .list__item {
-    flex: 0 0 50%; }
+    flex: 0 0 50%;
+    margin-bottom: 0.7rem; }
+  .list__item:before {
+    content: "";
+    display: inline-block;
+    height: 2rem;
+    width: 2rem;
+    background-image: url("../img/SVG/chevron-right.svg"); }
 
 .logo {
   height: 3.25rem;
