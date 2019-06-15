@@ -216,6 +216,10 @@ body {
     align-items: center; }
   .overview__icon-location {
     margin-right: 0.5rem; }
+  .overview__rating {
+    background-color: var(--primary-color);
+    color: #fff;
+    margin-left: 3rem; }
 
 .btn-inline {
   border: none;
