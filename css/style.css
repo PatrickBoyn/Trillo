@@ -93,6 +93,8 @@ body {
   border-bottom: var(--light-border-bottom);
   display: flex;
   flex-wrap: wrap; }
+  .list__item {
+    flex: 0 0 50%; }
 
 .logo {
   height: 3.25rem;
