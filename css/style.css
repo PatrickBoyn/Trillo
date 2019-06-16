@@ -108,7 +108,8 @@ body {
 
 .recommend {
   font-size: 1.3rem;
-  color: var(--light-grey-color-3); }
+  color: var(--dark-grey-color-3);
+  display: flex; }
   .recommend__photo {
     height: 4rem;
     width: 4rem;
