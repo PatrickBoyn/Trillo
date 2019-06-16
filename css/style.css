@@ -69,7 +69,8 @@ body {
 .detail {
   display: flex;
   padding: 4.5rem;
-  background-color: var(--light-grey-color-1); }
+  background-color: var(--light-grey-color-1);
+  font-size: 1.4rem; }
 
 .description {
   font-size: 1.4rem;
@@ -319,6 +320,8 @@ body {
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 50%; }
+  .review__user-box {
+    display: flex; }
 
 @keyframes pulsate {
   0% {
