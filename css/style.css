@@ -312,7 +312,9 @@ body {
 
 .review {
   background-color: var(--white);
-  box-shadow: var(--light-shadow); }
+  box-shadow: var(--light-shadow);
+  padding: 3rem;
+  margin-bottom: 3.5rem; }
 
 @keyframes pulsate {
   0% {
