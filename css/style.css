@@ -315,6 +315,10 @@ body {
   box-shadow: var(--light-shadow);
   padding: 3rem;
   margin-bottom: 3.5rem; }
+  .review__photo {
+    height: 4.5rem;
+    width: 4.5rem;
+    border-radius: 50%; }
 
 @keyframes pulsate {
   0% {
