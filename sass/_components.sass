@@ -320,9 +320,14 @@
     color: var(--white)
     position: relative
     overflow: hidden
+    cursor: pointer
 
     &:focus
         outline: none
+        animation: pulsate 1s infinite
+
+    &:hover
+        background-image: linear-gradient(to left, var(--primary-color-light), var(--primary-color-dark))
 
     & > *
         display: inline-block
