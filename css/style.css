@@ -385,7 +385,9 @@ body {
     padding: 2rem 7.5rem; }
   .btn__invisble {
     display: inline-block;
-    position: absolute; }
+    position: absolute;
+    padding: 2rem 7.5rem;
+    top: -100%; }
 
 @keyframes pulsate {
   0% {
