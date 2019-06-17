@@ -343,7 +343,11 @@ body {
     font-weight: 300; }
   .review::before {
     content: "\201C";
-    position: absolute; }
+    position: absolute;
+    top: -2rem;
+    right: -1rem;
+    font-size: 20rem;
+    color: var(--light-grey-color-2); }
 
 @keyframes pulsate {
   0% {
