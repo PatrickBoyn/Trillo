@@ -329,7 +329,10 @@ body {
   .review__user-box {
     margin-right: auto; }
   .review__user-name {
-    font-size: 1.1rem; }
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.4rem; }
 
 @keyframes pulsate {
   0% {
