@@ -316,12 +316,17 @@ body {
   box-shadow: var(--light-shadow);
   padding: 3rem;
   margin-bottom: 3.5rem; }
+  .review__text {
+    margin-bottom: 2rem; }
   .review__user {
-    display: flex; }
+    display: flex;
+    align-items: center; }
   .review__photo {
     height: 4.5rem;
     width: 4.5rem;
     border-radius: 50%; }
+  .review__user-box {
+    margin-right: auto; }
 
 @keyframes pulsate {
   0% {
