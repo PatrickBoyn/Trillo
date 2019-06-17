@@ -380,6 +380,12 @@ body {
   border: none;
   background-image: linear-gradient(to right, var(--primary-color-light), var(--primary-color-dark));
   color: var(--white); }
+  .btn__visible {
+    display: inline-block;
+    padding: 2rem 7.5rem; }
+  .btn__invisble {
+    display: inline-block;
+    position: absolute; }
 
 @keyframes pulsate {
   0% {
