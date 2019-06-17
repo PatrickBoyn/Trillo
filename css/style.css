@@ -384,7 +384,7 @@ body {
   .btn__visible {
     display: inline-block;
     padding: 2rem 7.5rem; }
-  .btn__invisble {
+  .btn__invisible {
     display: inline-block;
     position: absolute;
     padding: 2rem 7.5rem;
