@@ -384,17 +384,16 @@ body {
   overflow: hidden; }
   .btn:focus {
     outline: none; }
-  .btn__visible {
+  .btn > * {
     display: inline-block;
-    padding: 2rem 7.5rem;
     height: 100%;
     width: 100%; }
-  .btn__invisible {
+  .btn__visible {
     display: inline-block;
+    padding: 2rem 7.5rem; }
+  .btn__invisible {
     position: absolute;
     padding: 2rem 0;
-    height: 100%;
-    width: 100%;
     left: 0;
     top: -100%;
     transition: all .2s; }
