@@ -92,6 +92,9 @@ body {
   margin-right: 4.5rem;
   padding: 3rem;
   box-shadow: var(--light-shadow); }
+  @media only screen and (max-width: 56.25em) {
+    .description {
+      padding: 2rem; } }
 
 .user-reviews {
   flex: 1;
