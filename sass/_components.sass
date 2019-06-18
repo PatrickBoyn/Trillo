@@ -51,6 +51,8 @@
         height: 2rem
         width: 2rem
         fill: var(--dark-grey-color-3)
+        @media only screen and(max-width: $medium-break-point)
+            padding: 3rem
 
 // User Navigation
 .user-nav
@@ -157,13 +159,17 @@
 
         @media only screen and(max-width: $small-break-point)
             flex-direction: column
+            padding: 1rem
 
     &__icon
         width: 1.75rem
         height: 1.75rem
         margin-right: 2rem
         fill: currentColor
-
+        @media only screen and(max-width: $small-break-point)
+            margin-right: 0
+            height: 1.5rem
+            width: 1.5rem
 
 // Legal text
 .legal

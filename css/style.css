@@ -197,6 +197,9 @@ body {
     height: 2rem;
     width: 2rem;
     fill: var(--dark-grey-color-3); }
+    @media only screen and (max-width: 56.25em) {
+      .search__icon {
+        padding: 3rem; } }
 
 .user-nav {
   align-self: stretch;
@@ -283,12 +286,18 @@ body {
         padding: 2rem; } }
     @media only screen and (max-width: 37.5em) {
       .side-nav__link:link, .side-nav__link:visited {
-        flex-direction: column; } }
+        flex-direction: column;
+        padding: 1rem; } }
   .side-nav__icon {
     width: 1.75rem;
     height: 1.75rem;
     margin-right: 2rem;
     fill: currentColor; }
+    @media only screen and (max-width: 37.5em) {
+      .side-nav__icon {
+        margin-right: 0;
+        height: 1.5rem;
+        width: 1.5rem; } }
 
 .legal {
   font-size: 1.2rem;
