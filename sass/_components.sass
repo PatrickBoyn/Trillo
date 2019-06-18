@@ -104,12 +104,15 @@
     list-style-type: none
     margin-top: 3.5rem
 
-    @media screen and (max-width: $medium-break-point)
+    @media only screen and (max-width: $medium-break-point)
         display: flex
         margin: 0
 
     &__item
         position: relative
+
+        @media only screen and(max-width: $medium-break-point)
+            flex: 1
 
         &:not(:last-child)
             margin-bottom: 0.5rem
@@ -150,6 +153,7 @@
         height: 1.75rem
         margin-right: 2rem
         fill: currentColor
+
 
 // Legal text
 .legal

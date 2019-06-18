@@ -218,12 +218,15 @@ body {
   font-size: 1.4rem;
   list-style-type: none;
   margin-top: 3.5rem; }
-  @media screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 56.25em) {
     .side-nav {
       display: flex;
       margin: 0; } }
   .side-nav__item {
     position: relative; }
+    @media only screen and (max-width: 56.25em) {
+      .side-nav__item {
+        flex: 1; } }
     .side-nav__item:not(:last-child) {
       margin-bottom: 0.5rem; }
   .side-nav__item::before {
