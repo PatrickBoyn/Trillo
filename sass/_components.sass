@@ -58,6 +58,7 @@
     display: flex
     align-items: center
 
+
     & > *
         padding: 0 2rem
         cursor: pointer
@@ -102,6 +103,10 @@
     font-size: 1.4rem
     list-style-type: none
     margin-top: 3.5rem
+
+    @media screen and (max-width: $medium-break-point)
+        display: flex
+        margin: 0
 
     &__item
         position: relative
@@ -152,6 +157,8 @@
     color: var(--light-grey-color-4)
     text-align: center
     padding: 2.5rem
+    @media screen and (max-width: $medium-break-point)
+        display: none
 
 // Gallery
 .gallery
