@@ -145,7 +145,8 @@ body {
       .list__item:before {
         background-color: var(--primary-color);
         -webkit-mask-image: url("../img/SVG/chevron-right.svg");
-        -webkit-mask-size: cover; } }
+        -webkit-mask-size: cover;
+        background-image: none; } }
 
 .recommend {
   font-size: 1.3rem;
