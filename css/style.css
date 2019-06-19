@@ -206,9 +206,6 @@ body {
     height: 2rem;
     width: 2rem;
     fill: var(--dark-grey-color-3); }
-    @media only screen and (max-width: 56.25em) {
-      .search__icon {
-        padding: 3rem; } }
 
 .user-nav {
   align-self: stretch;
